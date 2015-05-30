@@ -1,0 +1,21 @@
+{
+  "name": "kvasir",
+  "version": "0.0.0",
+  "description": "Kvasir (Pronounced Kwa-seer) is a tool for finding and visualizing open data. Originally a project developed for NASA 757 SpaceApps 2015.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshuajharris/kvasir.git"
+  },
+  "author": "Joshua Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuajharris/kvasir/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11"
+  }
+}

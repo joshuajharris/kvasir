@@ -1,0 +1,20 @@
+{
+  "name": "kvasir",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joshuajharris/kvasir",
+  "authors": [
+    "Joshua Harris <joshua.jharris13@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
