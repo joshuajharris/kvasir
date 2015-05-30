@@ -1,4 +1,11 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+    uglify = require('gulp-uglify');
+
+gulp.task('minify', function(){
+  gulp.src('js/index.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('build'))
+});
 
 gulp.task('default', function(){
 
