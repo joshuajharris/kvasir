@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify');
 
 gulp.task('minify', function(){
-  gulp.src('js/index.js')
+  gulp.src('main.js')
     .pipe(uglify())
     .pipe(gulp.dest('build'))
 });
